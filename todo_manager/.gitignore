@@ -1,0 +1,11 @@
+#IDE
+.idea
+
+#Node modules
+node_modules
+
+#Distributive
+dist
+
+package-lock.json
+.env

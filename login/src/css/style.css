@@ -1,0 +1,57 @@
+.fade:not(.show) {
+  display: none !important;
+}
+.login-page-wrapp,
+.registration-page-wrapp {
+  height: 100vh;
+}
+
+.login-form-wrap{
+  width: 50%;
+}
+.registration-form-wrap {
+  width: 100%;
+}
+
+.login-form-wrap .form-card {
+  max-width: 500px;
+  width: 100%;
+  margin-right: 30px;
+}
+.registration-form-wrap .form-card {
+  max-width: 650px;
+  width: 100%;
+  margin-right: 30px;
+}
+
+.form-group:nth-child(7),
+.form-group:nth-child(10){
+  flex-basis: 100%;
+}
+.login-form-wrap .form-card .card-title,
+.registration-form-wrap .form-card .card-title{
+  color: var(--gray);
+}
+
+.login-greeting-screen {
+  background: var(--teal);
+  width: 50%;
+  padding: 20px;
+}
+
+.login-greeting-screen .login-greeting-screen-text {
+  max-width: 500px;
+}
+
+.login-greeting-screen .login-greeting-screen-text {
+  color: var(--white);
+}
+
+.login-greeting-screen .login-greeting-screen-title {
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.login-greeting-screen .login-greeting-screen-description {
+  line-height: 1.4;
+}
